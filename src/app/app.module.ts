@@ -4,11 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdminPageComponent } from './Admin/pages/admin-page/admin-page.component';
+import { HomeComponent } from './Home_Page/home/home.component';
+import { AdActivitiesComponent } from './Admin/pages/ad-activities/ad-activities.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AdminPageComponent
+    AdminPageComponent,
+    HomeComponent,
+    AdActivitiesComponent
   ],
   imports: [
     BrowserModule,
